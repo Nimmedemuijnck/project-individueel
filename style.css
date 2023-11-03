@@ -1,7 +1,7 @@
 /* op basis van https://www.youtube.com/watch?v=XM7sEpl0f7c */
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -97,11 +97,11 @@ nav {
 }
 .hamburger:before {
     top: -10px;
-    width: 20px;
+    width: 30px;
 }
 .hamburger:after {
     top: 10px;
-    width: 25px;
+    width: 30px;
 }
 .toggle-menu {
     position: absolute;

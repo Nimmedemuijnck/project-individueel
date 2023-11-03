@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Contact</title>
+    <title>Their history</title>
 </head>
 <body>
     <!-- Header -->
     <header>
         <!-- Navigator -->
         <nav>
-           
+            <input type="checkbox" class="toggle-menu">
+            <div class="hamburger"></div>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">What do they do?</a></li>
+                <li><a href="#">Their history</a></li>
+                <li><a href="#">Contact</a></li>
+                
+            </ul>
         </nav>
     </header>
     <!--Main-->

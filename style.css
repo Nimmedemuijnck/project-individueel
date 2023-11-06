@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #6ae635;
+    background: #faf3eb;
 }
 header{
     position: relative;
@@ -16,7 +16,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #e11c1c;
+    background: #6cb4b9;
     padding: 25px;
     transition: 0.3s;
 }
@@ -46,7 +46,7 @@ nav {
     Vergeet ook niet de nav en het logo om te draaien in je html  */
 
     right: -250px;
-    background: #e11c1c;
+    background: #6cb4b9;
     width: 250px;
     height: 100%;
     padding-top: 65px;
@@ -60,7 +60,7 @@ nav {
 }
 
 .menu li a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     display: block;
     line-height: 1;
@@ -79,7 +79,7 @@ nav {
     position: relative;
     width: 30px;
     height: 4px;
-    background: #fff;
+    background: #faf3eb;
     border-radius: 10px;
     cursor: pointer;
     z-index: 2;
@@ -91,7 +91,7 @@ nav {
     position: absolute;
     height: 4px;
     right: 0;
-    background: #fff;
+    background: #faf3eb;
     border-radius: 10px;
     transition: 0.3s;
 }

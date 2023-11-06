@@ -132,3 +132,12 @@ nav input:checked ~ .menu {
     right: 0;
     box-shadow: -20px 0 40px rgba(0, 0, 0, 0.3);
 }
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh; /* set the height to 100% of the viewport height */
+    text-align: center;
+}

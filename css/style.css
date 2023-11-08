@@ -79,7 +79,7 @@ nav {
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
 }
 
-.hamburger {
+.seaweed {
     position: relative;
     width: 30px;
     height: 4px;
@@ -90,8 +90,8 @@ nav {
     transition: 0.3s;
 }
 
-.hamburger:before,
-.hamburger:after {
+.seaweed:before,
+.seaweed:after {
     content: "";
     position: absolute;
     height: 4px;
@@ -101,11 +101,11 @@ nav {
     transition: 0.3s;
 }
 
-.hamburger:before {
+.seaweed:before {
     top: -10px;
     width: 30px;
 }
-.hamburger:after {
+.seaweed:after {
     top: 10px;
     width: 30px;
 }
@@ -119,7 +119,7 @@ nav {
     opacity: 0;
 }
 
-.hamburger,
+.seaweed,
 .toggle-menu {
    display: block;
 }

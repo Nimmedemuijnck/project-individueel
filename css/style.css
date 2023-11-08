@@ -124,17 +124,17 @@ nav {
    display: block;
 }
 
-nav input:checked ~ .hamburger {
+nav input:checked ~ .seaweed {
     background: transparent;
 }
 
-nav input:checked ~ .hamburger:before {
+nav input:checked ~ .seaweed:before {
     top: 0;
     transform: rotate(-45deg);
     width: 30px;
 }
 
-nav input:checked ~ .hamburger:after {
+nav input:checked ~ .seaweed:after {
     top: 0;
     transform: rotate(45deg);
     width: 30px;

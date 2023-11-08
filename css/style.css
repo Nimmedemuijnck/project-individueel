@@ -25,6 +25,16 @@ header{
     transition: 0.3s;
 }
 
+footer {
+    margin-right: 3%;
+    margin-top: 25vh;
+    /*position: absolute;*/
+}
+
+footer p {
+    font-size: 12px;
+}
+
 .logo a {
     display: block;
 }
@@ -158,3 +168,35 @@ h1 a {
     text-decoration: none;
 }
 
+h2{
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    font-size: 20px;
+}
+p {
+    font-size: 17px;
+    margin-left: 30%;
+    margin-top: 3vh;
+    margin-right: 3%;
+}
+
+.images{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding:3%;
+    margin-top: 1vh;
+    margin-right: 3%;
+    margin-left: 3%;
+    float: left; /* Images container on the left */
+    width: 30%; /* Adjust the width as needed */
+} 
+
+
+.images img {
+    display: block;
+    width: 75px;
+    height: 100px;
+    margin-top: 15vh; /* Add margin between images */
+}

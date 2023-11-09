@@ -28,12 +28,9 @@ header{
     transition: 0.3s;
 }
 
-
 main {
     flex-grow: 1;
-
 }
-
 
 footer {
     text-align: center;
@@ -52,7 +49,7 @@ footer p {
     display: block;
     width: 55px;
     height: 80px;
-    }
+}
 
 nav {
     display: flex;
@@ -184,6 +181,7 @@ h2{
     font-size: 20px;
     margin-left: 5%;
 }
+
 p {
     font-size: 17px;
     margin-top: 3vh;
@@ -203,14 +201,12 @@ p {
     width: 30%;
 } 
 
-
 .images img {
     display: block;
     width: 75px;
     height: 100px;
     margin-top: 15vh; 
 }
-
 
 .left {
     position: absolute;
@@ -221,17 +217,14 @@ p {
     
 }
 
-
 .left h2{
     margin-top: 0%;
 }
-
 
 .right{
     display: flex;
     justify-content: right;
     flex-wrap: wrap;
-    
     margin-top: 1vh;
     margin-right: 5%;
     margin-left: 8%;
@@ -248,7 +241,7 @@ p {
 }
 
 #achtergrond {
-    opacity: 0.25;
+    opacity: 0.35;
     height: 550px;
     width: 316px;
 
@@ -258,6 +251,7 @@ p {
     left: 50%; 
     transform: translateX(-50%);
 }
+
 .button {
     display: inline-block;
     padding: 10px 20px;
@@ -268,16 +262,17 @@ p {
     border-radius: 4px;
     cursor: pointer;
     margin-top: 20px;
-  }
+}
   
-  .button:hover {
+.button:hover {
     background-color: #6cb4b9; 
-  }
+}
 
 #Home, #Contact {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 5vh;
 }
 
 #Home p, #Contact p {

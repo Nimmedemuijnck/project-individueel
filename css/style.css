@@ -255,8 +255,8 @@ p {
 
 #achtergrond {
     opacity: 0.5;
-    height: 534px;
-    width: 300px;
+    height: 550px;
+    width: 316px;
 
     position: absolute; /* Plaats de afbeelding absoluut binnen de sectie */
     z-index: -1; /* Stel de z-index in op -1 om de afbeelding achter de tekst te plaatsen */
@@ -264,3 +264,19 @@ p {
     left: 50%; /* Plaats de afbeelding in het midden van de sectie */
     transform: translateX(-50%); /* Centreer de afbeelding horizontaal */
 }
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6cb4b9; /* Button background color */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #6cb4b9; /* Button background color on hover */
+  }

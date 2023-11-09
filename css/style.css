@@ -10,6 +10,9 @@
 body {
     background: #faf3eb;
     font-family: 'Lora', sans-serif;  
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header{
@@ -25,11 +28,32 @@ header{
     transition: 0.3s;
 }
 
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+/*
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
 footer {
     margin-right: 3%;
     margin-top: 25vh;
-    /*position: absolute;*/
+    position:absolute
 }
+*/
+
+
 
 footer p {
     font-size: 12px;

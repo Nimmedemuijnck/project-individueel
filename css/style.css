@@ -168,7 +168,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5vh; /* set the height to 100% of the viewport height */
+    height: 5vh; 
     text-align: center;
 }
 
@@ -182,11 +182,13 @@ h2{
     align-items: center;
     margin-top: 5%;
     font-size: 20px;
+    margin-left: 5%;
 }
 p {
     font-size: 17px;
     margin-top: 3vh;
-    margin-right: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .images{
@@ -195,10 +197,10 @@ p {
     flex-wrap: wrap;
     padding:3%;
     margin-top: 1vh;
-    margin-right: 3%;
-    margin-left: 3%;
-    float: left; /* Images container on the left */
-    width: 30%; /* Adjust the width as needed */
+    margin-right: 5%;
+    margin-left: 5%;
+    float: left; 
+    width: 30%;
 } 
 
 
@@ -206,7 +208,7 @@ p {
     display: block;
     width: 75px;
     height: 100px;
-    margin-top: 15vh; /* Add margin between images */
+    margin-top: 15vh; 
 }
 
 
@@ -215,7 +217,7 @@ p {
     margin-top: 2vh;
     float: left;
     width: 70%; 
-    margin-left: 3%;
+    margin-left: 5%;
     
 }
 
@@ -229,12 +231,12 @@ p {
     display: flex;
     justify-content: right;
     flex-wrap: wrap;
-    padding:3%;
+    
     margin-top: 1vh;
-    margin-right: 3%;
-    margin-left: 3%;
-    float: right; /* Images container on the left */
-    width: 30%; /* Adjust the width as needed */
+    margin-right: 5%;
+    margin-left: 8%;
+    float: right; 
+    width: 30%; 
 } 
 
 
@@ -242,41 +244,42 @@ p {
     display: block;
     width: 75px;
     height: 100px;
-    margin-top: 15vh; /* Add margin between images */
+    margin-top: 15vh;
 }
-
-#Home {
-    text-align: center;
-    margin-top: 10vh;
-    margin-left: 3%;
-    margin-right: 3%;
-}
-
 
 #achtergrond {
-    opacity: 0.5;
+    opacity: 0.25;
     height: 550px;
     width: 316px;
 
-    position: absolute; /* Plaats de afbeelding absoluut binnen de sectie */
-    z-index: -1; /* Stel de z-index in op -1 om de afbeelding achter de tekst te plaatsen */
+    position: absolute;
+    z-index: -1; 
     top: 15vh;
-    left: 50%; /* Plaats de afbeelding in het midden van de sectie */
-    transform: translateX(-50%); /* Centreer de afbeelding horizontaal */
+    left: 50%; 
+    transform: translateX(-50%);
 }
-
-
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #6cb4b9; /* Button background color */
-    color: #fff; /* Text color */
+    background-color: #6cb4b9; 
+    color: #fff; 
     text-decoration: none;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 20px;
   }
   
   .button:hover {
-    background-color: #6cb4b9; /* Button background color on hover */
+    background-color: #6cb4b9; 
   }
+
+#Home, #Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Home p, #Contact p {
+    text-align: center;
+}

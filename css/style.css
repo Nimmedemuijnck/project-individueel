@@ -194,7 +194,6 @@ p {
     justify-content: left;
     flex-wrap: wrap;
     padding:3%;
-    margin-top: 1vh;
     margin-right: 5%;
     margin-left: 5%;
     float: left; 
@@ -214,6 +213,7 @@ p {
     float: left;
     width: 70%; 
     margin-left: 5%;
+    padding-right: 5%;
     
 }
 

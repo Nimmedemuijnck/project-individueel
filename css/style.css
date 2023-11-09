@@ -176,7 +176,6 @@ h2{
 }
 p {
     font-size: 17px;
-    margin-left: 30%;
     margin-top: 3vh;
     margin-right: 3%;
 }
@@ -195,6 +194,41 @@ p {
 
 
 .images img {
+    display: block;
+    width: 75px;
+    height: 100px;
+    margin-top: 15vh; /* Add margin between images */
+}
+
+
+.left {
+    position: absolute;
+    /*margin-top: 2vh;*/
+    float: left;
+    width: 70%; /* Adjust the width as needed */
+    padding: 20px;
+}
+
+
+.left h2{
+margin-top: 0%;
+}
+
+
+.right{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    padding:3%;
+    margin-top: 1vh;
+    margin-right: 3%;
+    margin-left: 3%;
+    float: right; /* Images container on the left */
+    width: 30%; /* Adjust the width as needed */
+} 
+
+
+.right img {
     display: block;
     width: 75px;
     height: 100px;
